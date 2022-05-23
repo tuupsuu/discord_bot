@@ -3,7 +3,8 @@ import discord
 import random
 import re
 
-TOKEN = 'OTc2OTA3MDUxMzUzNjQwOTYw.GpV6MR.Z6CuE2rLdTqSp5O82XN0-4FM04B2Wm_7GozezA' # discord botin tokeni
+tiedosto = open("./token.dat")
+TOKEN = tiedosto.read() # discord botin tokeni
 
 # TODO lisää ohjeet ja lista niistä, niin helpompi tulostaa
 help_ohjeet = '?!help = saadaksesi ohjeet tämän botin käyttöön'
